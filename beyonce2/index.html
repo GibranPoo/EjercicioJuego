@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escapa de Beyonce</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Escapa de Beyonce</h1>
+    <div id="flex-container">
+        <div id="game-area">
+            <div id="player" class="personaje"></div>
+            <div id="beyonce" class="personaje"></div>
+        </div>
+        <div id="game-config">
+            <div><h3>Opciones</h3></div>
+            <div>
+                <span id="vol">Volumen</span>
+                <input type="range" id="mislider" min="0" max="1" step="0.1" value="0.5">
+            </div>
+            <div id="boton-container">
+                <button id="boton-iniciar">Iniciar juego</button>
+            </div>
+            <div>
+                <span>Fondo</span>
+                <select id="colorSelect">
+                    <option value="white">Blanco</option>
+                    <option value="red">Rojo</option>
+                    <option value="green">Verde</option>
+                    <option value="blue">Azul</option>
+                    <option value="yellow">Amarillo</option>
+                </select>
+            </div>
+            <div id="personajes-container">
+                <span>Personaje</span>
+                <div id="trollface"></div>
+                <div id="happymeme"></div>
+            </div>
+        </div>
+    </div>
+    <audio id="reproductor"><source src="single.m4a" type="audio/mpeg"></audio>
+    <script src="app.js"></script>
+</body>
+</html>

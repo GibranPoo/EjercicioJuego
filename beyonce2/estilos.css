@@ -1,0 +1,79 @@
+#flex-container{
+    display: flex;
+    margin-left: 20%;
+    
+}
+
+
+#game-area {
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    height: 500px;
+    position: relative;
+    width: 500px;
+    display: flex;
+}
+
+.personaje {
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+#player {
+    background-color: blue;
+}
+
+#beyonce {
+    background-image: url('beyonce.jpg');
+    background-size: cover;
+}
+
+#game-config{
+    flex-direction: column;
+    border: 2px solid #000;
+    position: relative;
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+    background-color: #DFC57B;
+}
+
+
+#boton-container{
+    align-self: center;
+    margin-top: 1em;
+}
+
+select{
+    align-self: center;
+    margin-top: 1em;
+}
+
+#personajes-container{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#trollface{
+    height: 60px;
+    width: 80px;
+    background-image: url(img/trollface.png);
+    background-size: cover;
+}
+
+#happymeme{
+    margin-top: 1em;
+    height: 60px;
+    width: 60px;
+    background-image: url(img/meme_cara1.jpg);
+    background-size: cover;
+}
+
+.boton-personaje{
+    height: 100%;
+    width: 100%;
+}
